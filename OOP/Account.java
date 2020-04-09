@@ -1,5 +1,3 @@
-import jdk.nashorn.internal.objects.annotations.Constructor;
-
 public class Account {
   private String number;
   private double balance;
