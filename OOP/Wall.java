@@ -16,7 +16,7 @@ public class Wall {
   }
 
   public double getHeight() {
-    return this.height;
+    return this.height; 
   }
 
   public void setWidth(double width) {
