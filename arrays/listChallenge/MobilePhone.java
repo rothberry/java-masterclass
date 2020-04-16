@@ -28,7 +28,7 @@ public class MobilePhone {
   private int findContact(String contactName) {
     for (int i = 0; i < this.myContacts.size(); i++) {
       Contact contact = this.myContacts.get(i) ;
-      if (contact.getName().equals(contactName) {
+      if (contact.getName().equals(contactName)) {
         return i;
       }
     }
@@ -41,7 +41,7 @@ public class MobilePhone {
       System.out.println(oldContact.getName() + " not found");
       return false;
     } 
-    this.myContacts.set(foundPosition, newContact)
+    this.myContacts.set(foundPosition, newContact);
     return true;
   }
 

@@ -69,12 +69,12 @@ public class Main {
     // int itemNum = scanner.nextInt();
     System.out.print("New Item: ");
     String newItem = scanner.nextLine();
-    groceryList.modifyGroceryItem(itemNum - 1, newItem);
+    // groceryList.modifyGroceryItem(itemNum - 1, newItem);
   }
 
   private static void deleteItem() {
     System.out.print("Enter Number: ");
-    groceryList.removeItem(scanner.nextInt() - 1);
+    // groceryList.removeItem(scanner.nextInt() - 1);
   }
 
   private static void searchForItem() {
